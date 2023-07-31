@@ -1,0 +1,153 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title>TechWebinar</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;500&family=Poppins:wght@100;200;300&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div class="video-container">
+        <video class="background-video" autoplay muted loop>
+          <source src="assets/a.mp4" type="video/mp4">
+        </video>
+    
+        <div id="text-container" class="text">
+            <h1>Webinar On</h1>
+            <h1>Introduction to Web3 and Cloud</h1>
+            <p>On Aug 11, 2023</p>
+        </div>
+        <div id="bottom-rail">
+            <marquee>
+                India's biggest webinar on Web3 and Cloud | India's biggest webinar on Web3 and Cloud India's biggest webinar on Web3 and Cloud | India's biggest webinar on Web3 and Cloud
+            </marquee>
+              
+
+        </div>
+    </div>
+
+      <div class="scroll-over-section" id="aboutSection">
+        <div class="container pt-lg-3">
+            <div class="p-lg-5">
+                <center>
+                    <div class="title p-4"><h2><span>About Webinar</span></h2></div>
+    
+                    <div>
+                        <p>Join us for an immersive webinar on how Web3 and Cloud are transforming the way we interact with technology and enhancing the learning experience. Explore the exciting possibilities and practical applications of these cutting-edge technologies with industry experts and thought leaders.</p>
+                    </div>
+    
+                    <h5 class="p-2">Date: Aug 11, 2023</h5>
+                    <h5 class="p-2">Venue: Online</h5>
+                    <h5 class="p-2">Time: 12:00 PM</h5>
+                    <h5 class="p-2">Duration: 95 Min</h5>
+                </center>
+            </div>
+
+            <div class="pt-lg-5 pb-lg-3">
+                <div class="title pb-lg-5" style="margin-left: 40px;"><h2><span>Agenda</span></h2></div>
+
+                <ol>
+                    <li class="font-weight">Welcome and Introduction (5 minutes)</li>
+                    <ul>
+                        <li>Brief overview of the webinar's objectives and speakers.</li>
+                    </ul>
+                    <li class="font-weight">Understanding Web3 Technology (20 minutes)</li>
+                    <ul>
+                        <li>What is Web3? Evolution from Web1 to Web3.</li>
+                        <li>Key components of Web3: Blockchain, decentralized apps (dApps), and smart contracts.</li>
+                        <li>Advantages and benefits of Web3 over traditional Web2 applications.</li>
+                    </ul>
+                    <li class="font-weight">Web3 Applications and Use Cases (15 minutes)</li>
+                    <ul>
+                        <li>Real-world use cases of Web3 technology: NFTs, DeFi, supply chain, gaming, and more.</li>
+                        <li>Exploring the potential impact of Web3 on different industries.</li>
+                    </ul>
+                    <li class="font-weight">The Role of Cloud Computing in Web3 (15 minutes)</li>
+                    <ul>
+                        <li>Overview of cloud computing and its relevance to Web3 applications.</li>
+                        <li>How cloud services support the scalability and availability of decentralized applications.</li>
+                    </ul>
+                    <li class="font-weight">Integrating Web3 and Cloud (15 minutes)</li>
+                    <ul>
+                        <li>How Web3 and cloud technologies can complement each other.</li>
+                        <li>Best practices for building Web3 applications on cloud platforms.</li>
+                    </ul>
+                    <li class="font-weight">Q&A Session (20 minutes)</li>
+                    <li class="font-weight">Summarize key takeaways from the webinar. (5 minutes)</li>
+                </ol>
+            </div>
+
+            <section id="speakers" class="container py-5 my-2 my-md-4 my-lg-5">
+                <div class="d-md-flex align-items-center justify-content-between text-center text-md-start pt-md-1 pt-lg-3">
+                  <h2 class="h1 mb-4 mb-md-0 me-md-3 title"><span>Keynote Speakers</span></h2>
+                </div>
+                <center class="pt-lg-5">
+                    <div class="row">
+                    <div class="col">
+                        <img src="assets/2.jpg" alt="" srcset="" width="300px" height="300px" class="img" style="border-radius: 20px;">
+                        <p class="pt-4">Darrell Steward</p>
+                        <p>Web3 Expert</p>
+                        <p>Founder of @something</p>
+                    </div>
+                    <div class="col">
+                        <img src="assets/1.jpg" alt="" srcset="" width="300px" height="300px" class="img" style="border-radius: 20px;">
+                        <p class="pt-4">Jenny Wilson</p>
+                        <p>Cloud Expert</p>
+                        <p>Founder of @company</p>
+                    </div>
+                </div>
+            </center>
+              </section>
+
+
+              <div class="container-fluid" id="contact">
+                <h2 class="h1 mb-4 mb-md-0 me-md-3 title pb-lg-5 ps-lg-2"><span>Contact</span></h2>
+                <div class="container form-data">
+                  <form name="contact" action="mailsent.php" method="post">
+                    <div class="mb-3">
+                      <label for="name" class="form-label">Name</label>
+                      <input type="text" class="form-control" name="name"required>
+                    </div>
+                    <div class="mb-3">
+                      <label for="exampleInputEmail1" class="form-label">Email address</label>
+                      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" name="email" required>
+                    </div>
+                    <div class="mb-3">
+                      <label for="subject" class="form-label">Mobile No.</label>
+                      <input type="number" class="form-control" name="subject" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleFormControlTextarea1" class="form-label">What do You expect from this webinar (Optional)</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    </div>
+                    <center><button type="submit" name="submit" class="submit shadow-lg">Submit</button></center>
+                  </form>
+                </div>
+               </div>
+               
+            
+        </div>
+
+        <div class="pt-lg-5">
+            <center><p>All rigths Reserved @2023</p></center>
+       </div>
+      </div>
+
+      
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+  </body>
+</html>
